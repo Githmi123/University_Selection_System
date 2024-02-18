@@ -14,3 +14,8 @@ The University Selection System is one of our Semester 03 projects for the modul
 - **Capacities of programs** : Each University program is a "University_Queue", with a certain specified capacity as it's size.
 - **Candidate Allocation** : Candidates are allocated based on the z-scores to the "University_Queue" of each degree program. Allocated using switch cases.
 - **Output** : Index No. and the z-score of the allocated candidates for each degree program are printed on the console and saved in a text file "FinalLists.txt".
+
+### Technologies Used
+
+- **Language** : C++
+- **Data Structures** : Linked Lists, Queues
