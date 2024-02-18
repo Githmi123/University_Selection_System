@@ -1,6 +1,6 @@
 # University Selection System: A Data Structures Project in C++
 
-## A Data Structures Project that Efficiently Allocate Candidates to Engineering Degree Programs in Sri Lanka, Using Linked Lists and Queues
+**A Data Structures Project that Efficiently Allocate Candidates to Engineering Degree Programs in Sri Lanka, Using Linked Lists and Queues**
 
 ## Introduction
 
