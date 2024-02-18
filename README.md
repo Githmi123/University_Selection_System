@@ -12,4 +12,5 @@ The University Selection System is one of our Semester 03 projects for the modul
 - **Preference Order of the programs** :  The unicodes in preference order are stored in a "Preference_Order_Queue".
 - **Students** : All the details of the students are stored in a "Candidate_Doubly_Linked_List".
 - **Capacities of programs** : Each University program is a "University_Queue", with a certain specified capacity as it's size.
-- **Candidate Allocation** : Candidates are allocated based on the z-scores to the "University_Queue" of each degree program.
+- **Candidate Allocation** : Candidates are allocated based on the z-scores to the "University_Queue" of each degree program. Allocated using switch cases.
+- **Output** : Index No. and the z-score of the allocated candidates for each degree program are printed on the console and saved in a text file "FinalLists.txt".
