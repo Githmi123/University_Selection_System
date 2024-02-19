@@ -19,3 +19,9 @@ The University Selection System is one of our Semester 03 projects for the modul
 
 - **Language** : C++
 - **Data Structures** : Linked Lists, Queues
+
+## Installation
+
+To install and run this project, follow these steps:
+
+1. Clone the repository to your local machine.
