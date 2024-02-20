@@ -25,4 +25,5 @@ The University Selection System is one of our Semester 03 projects for the modul
 To install and run this project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. 
+2. Navigate to the project directory.
+3. Start the application in Visual Studio by double-clicking on "University_Selection_System_Based_On_Z_Score.sln".
