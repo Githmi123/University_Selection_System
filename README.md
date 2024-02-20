@@ -25,3 +25,4 @@ The University Selection System is one of our Semester 03 projects for the modul
 To install and run this project, follow these steps:
 
 1. Clone the repository to your local machine.
+2. 
