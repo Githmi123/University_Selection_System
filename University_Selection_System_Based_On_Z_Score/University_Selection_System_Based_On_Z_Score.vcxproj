@@ -136,6 +136,7 @@
     <ClInclude Include="Preference_Order_Queue.h" />
     <ClInclude Include="Student_Data_Entry_Functions.h" />
     <ClInclude Include="University_Queue.h" />
+    <ClInclude Include="Welcome.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="StudentDataList.txt" />

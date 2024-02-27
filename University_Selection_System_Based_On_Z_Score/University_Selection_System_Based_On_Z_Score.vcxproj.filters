@@ -38,6 +38,9 @@
     <ClInclude Include="University_Queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Welcome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="StudentDataList.txt" />
