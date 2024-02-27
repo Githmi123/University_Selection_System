@@ -1,8 +1,10 @@
 #pragma once
 #include<string>
 #include<iostream>
+#include<fstream>
+
 using namespace std;
- 
+
 class University_Queue
 {
 public:
@@ -12,22 +14,22 @@ public:
 	int rear;
 	int capacity;
 	string* student_list;
-	float* z_score_list;
+	double* z_score_list;
 
 
 
-	University_Queue(int cap){
+	University_Queue(int cap) {
 		size = 0;
-		cap = capacity;
+		capacity = cap;
 		student_list = new string[capacity];
-		z_score_list = new float[capacity];
+		z_score_list = new double[capacity];
 		front = 0;
 		rear = 0;
 	}
 
-	bool enQueue(string indexNO,float zScore) {
-		
-		if (size == 6) {
+	bool enQueue(string indexNO, double zScore, int capacity) {
+
+		if (size == capacity) {
 			return true;
 		}
 
@@ -35,7 +37,7 @@ public:
 			student_list[rear] = indexNO;
 			z_score_list[rear] = zScore;
 
-			rear = (rear + 1) % 6;
+			rear = (rear + 1) % capacity;
 
 			size++;
 			return false;
@@ -43,13 +45,30 @@ public:
 
 	}
 
-	void print_array() {  // Here, we print the value as they are.
+	void print_array() {
 
-		for (int i = 0; i < capacity; i++) {
-			cout << student_list[i] << " ";
-			cout << z_score_list[i] << " ";
+		for (int i = 0; i < size; i++) {
+			cout << student_list[i] << "	";
+			cout << "\t";
+			cout << z_score_list[i] << "	";
+			cout << endl;
 		}
 		cout << endl;
+	}
+
+
+	void print_array_to_file(string path) {
+		string filename(path);
+		fstream file;
+		for (int i = 0; i < size; i++) {
+			file.open(filename, std::ios_base::app | std::ios_base::in);
+			if (file.is_open()) {
+				file << student_list[i] << "\t\t" << z_score_list[i] << "	" << endl;
+				file.close();
+			}
+
+		}
+
 	}
 
 };
