@@ -30,19 +30,19 @@ To install and run this project, follow these steps:
 4. Build the program.
 
 
-### Contributing
+## Contributing
 
 We welcome contributions to our project. Whether it's a bug fix, new feature, or improvement, we appreciate your efforts to make this project better for everyone. Here is how you can contribute:
 
-## Getting Started
+### Getting Started
 - Fork the repository and clone it to your local machine.
 - Create a new branch for your changes.
 
-## Submitting Changes
+### Submitting Changes
 - Push your changes to your fork.
 - Submit a pull request to the main branch of this original repository.
 - Please provide a clear description of your changes and why they are necessary.
 
-### Conclusion
+## Conclusion
 
 Thank you for checking out our project! We hope you found it useful. If you have any questions or feedback, please don't hesitate to contact us.
